@@ -1,0 +1,9 @@
+// push constant {{value}}
+@{{ value }}
+D=A
+// put value into stack[SP]
+@SP
+M=D
+// increment stack pointer
+@SP
+M=M+1

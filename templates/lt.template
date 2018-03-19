@@ -1,0 +1,14 @@
+// D == stack[SP-1]
+// M == stack[SP-2]
+D=D-M;
+@{{ unique_label_1 }}
+D;JGT
+// result is false
+D=0
+@{{unique_label_2}}
+0;JEQ
+(unique_label_1)
+// result is true
+D=-1
+({{unique_label_2}})
+@SP

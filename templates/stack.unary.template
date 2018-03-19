@@ -1,0 +1,7 @@
+// put stack[SP-1] in D
+@SP
+A=A-1
+D=M
+{{ operation }}
+// put result into stack[SP-1]
+M=D

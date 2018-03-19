@@ -1,0 +1,12 @@
+// push {{ segment }} {{value}}
+@{{ segment }}
+D=A
+@{{ value }}
+A=D+A
+D=M
+// put memory value into stack[SP]
+@SP
+M=D
+// increment stack pointer
+@SP
+M=M+1

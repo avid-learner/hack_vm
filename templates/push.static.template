@@ -1,0 +1,9 @@
+// push static {{value}}
+@{{ unique_variable }}
+D=M
+// put value into stack[SP]
+@SP
+M=D
+// increment stack pointer
+@SP
+M=M+1
