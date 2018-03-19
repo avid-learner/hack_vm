@@ -1,1 +1,3 @@
+\\ D == stack[SP-1]
+\\ M == stack[SP-2]
 D=D+M

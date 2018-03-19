@@ -2,7 +2,7 @@
 // M == stack[SP-2]
 D=D-M;
 @{{ unique_label_1 }}
-D;JEQ
+D;JLT
 // result is false
 D=0
 @{{unique_label_2}}
